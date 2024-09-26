@@ -1,0 +1,58 @@
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 12px; /* Réduction de l'espace interne */
+  margin: 16px auto; /* Centrage de la carte avec une marge automatique */
+  text-align: center;
+  width: 300px; /* Limitation de la largeur de la carte */
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03); /* Légère réduction de l'effet de survol */
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card-title {
+  font-size: 1.4em; /* Réduction de la taille de la police */
+  color: #333;
+}
+
+.card-age {
+  font-size: 1em; /* Réduction de la taille de la police */
+  color: #666;
+}
+
+.card-citation {
+  font-style: italic;
+  color: #555;
+}
+
+.card-input {
+  width: calc(100% - 20px); /* Ajustement de la largeur pour le padding */
+  padding: 8px; /* Réduction du padding */
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.card-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 14px; /* Réduction du padding */
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card-button:hover {
+  background-color: #0056b3;
+}

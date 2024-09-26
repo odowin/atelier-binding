@@ -1,0 +1,13 @@
+<div class="card">
+  <img [src]="card.imageUrl" alt="Image de {{ card.title }}" class="card-img" />
+  <h2 class="card-title">{{ card.title }}</h2>
+  <p class="card-age">Âge : {{ card.age }}</p>
+  <p class="card-citation">Citation : {{ card.citation }}</p>
+  <input 
+    type="text" 
+    (input)="updateCitation($event)" 
+    placeholder="Écris une citation..." 
+    class="card-input"
+  />
+  <!-- <button (click)="onButtonClick()" class="card-button">Afficher la citation</button> -->
+</div>
